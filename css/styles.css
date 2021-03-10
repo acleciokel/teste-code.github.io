@@ -25,7 +25,6 @@ line-height: 1.5;
 
 /* Conainers */
 .container-fluid {
-  padding: 7% 15%;
 }
 
 /* Sections */
@@ -57,7 +56,7 @@ background-color: #fff;
 }
 
 .navbar-link {
-  font-size: 2rem;
+  font-size: 4.5rem;
   font-family: "Montserrat-Light";
 }
 
@@ -88,6 +87,7 @@ background-color: #fff;
 #features {
   position: relative;
   z-index: 1;
+  padding: 7% 10% 7%/
 }
 
 .feature-title {
@@ -102,11 +102,13 @@ background-color: #fff;
 
 #testimonials {
   font-size: 3rem;
+  padding: 7% 10% 7%;
 }
 
 .skills-text {
   font-size: 2.5rem;
   line-height: 1.5;
+  padding: inherit;
 }
 
 .testimonial-image {
@@ -119,22 +121,24 @@ background-color: #fff;
 
 #press {
   background-color: #fff;
-  padding-bottom: 15%;
+  padding: auto;
 }
 
 .press-logo {
-  width: 100%;
-  margin: auto;
+  width: 50%;
+  margin: 20px;
 }
 
 /* CTA SECTION */
 #cta {
   background-color: #00FFFF;
+  padding: 7% 15% 7%;
+  text-align: inherit;
 }
 
 .cta-image {
-  width: 30%;
-  border-radius: 50%;
+  width: 20%;
+  padding-top: auto;
 }
 
 /* footer */
