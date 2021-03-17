@@ -3,18 +3,33 @@ body {
   text-align: center;
 }
 
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Montserrat-Black";
 }
 
 p {
-  color: #B1B1B1;
+  color: #fff;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Header/logo Title */
+
+.header {
+  padding: 10px;
+  text-align: center;
+  background: #20B2AA;
+  color: white;
 }
 
 /* Headings */
 .big-heading {
   font-family: "Montserrat-Black";
-  font-size: 3.5rem;
+  font-size: auto;
   line-height: 1.5;
 }
 
@@ -32,6 +47,7 @@ line-height: 1.5;
 .colored-section {
   background-color: #00BFFF;
   color: #2F4F4F;
+
 }
 
 .white-section {
@@ -46,17 +62,17 @@ background-color: #fff;
 
 .navbar-brand {
   font-family: "Ubuntu";
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-style: italic;
-  text-align: left;
+
 }
 
 .navbar-item {
-  padding: 0 18%;
+  padding: auto;
 }
 
 .navbar-link {
-  font-size: 4.5rem;
+  font-size: 6rem;
   font-family: "Montserrat-Light";
 }
 
@@ -67,7 +83,8 @@ background-color: #fff;
 
 /* Title Section*/
 #title {
-  text-align: left;
+  text-align: center;
+
 }
 
 #title .container-fluid {
@@ -76,18 +93,17 @@ background-color: #fff;
 
 
 /* Titlle Image */
-.titlle-image {
-  width: 100%;
-  border-radius: 30%;
-  margin: auto;
-  padding: 20% 10%;
-  z-index: -1;
+.img-fluid {
+  position: relative;
+  align: right;
+  width: auto;
+  height: auto;
 }
 
 #features {
   position: relative;
   z-index: 1;
-  padding: 7% 10% 7%/
+  padding: 7% 10% 7%;
 }
 
 .feature-title {
@@ -101,20 +117,14 @@ background-color: #fff;
 /* Testimonials Sections */
 
 #testimonials {
-  font-size: 3rem;
-  padding: 7% 10% 7%;
+  font-size: 130%;
+  padding: auto;
+  margin: auto;
+  text-align: center;
 }
 
-.skills-text {
-  font-size: 2.5rem;
-  line-height: 1.5;
-  padding: inherit;
-}
-
-.testimonial-image {
-  width: 10%;
-  border-radius: 80%;
-  margin: 20px;
+.figure-img {
+  width: 100%;
 }
 
 /* Press Section */
@@ -127,13 +137,7 @@ background-color: #fff;
 .press-logo {
   width: 50%;
   margin: 20px;
-}
-
-/* CTA SECTION */
-#cta {
-  background-color: #00FFFF;
-  padding: 7% 15% 7%;
-  text-align: inherit;
+  align-self: auto;
 }
 
 .cta-image {
@@ -143,14 +147,11 @@ background-color: #fff;
 
 /* footer */
 .social-icon {
-  margin: 70px 50px;
+  margin: 10px;
+padding: 10px 20px;
 }
 
-@media (max-width: 1028px) {
-  #titlle {
-    text-align: center;
-  }
-
-  .titlle-image {
-    position: static;
+@media (max-width: 700px) {
+  .row, .navbar {
+    flex-direction: column;
   }
