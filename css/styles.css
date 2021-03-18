@@ -83,8 +83,9 @@ background-color: #fff;
 
 /* Title Section*/
 #title {
-  text-align: center;
-
+  text-align: left;
+  padding: inherit;
+  margin: auto;
 }
 
 #title .container-fluid {
